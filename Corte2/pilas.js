@@ -1,4 +1,4 @@
-// Principio LIFO (Last in, First Out)
+// Principio LIFO (Last in, First Out)-- Ultimo en entrar primero en sali
 
 let pila = []
 
@@ -13,3 +13,13 @@ console.log(pila);
 
 let elementoseliminado = pila.pop();
 console.log (elementoseliminado);
+
+//mostrar primer elemento en la pila
+let primerelemento = pila[pila.length - 1];
+console.log (primerelemento);
+
+
+if (pila.length===0){
+    console.log("La pila esta vacia")
+
+}
